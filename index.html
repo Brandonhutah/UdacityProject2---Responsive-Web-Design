@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Build a Portfolio</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="container">
+			<header class="row">
+				<div class="col-6">
+					<img class="logo-image" src="img/udacity_logo.png" alt="Main Logo">
+				</div>
+				<div class="col-6 right-align">
+					<h1>Brandon Horlacher</h1>
+					<h3>Full-stack Ninja</h3>
+				</div>
+				<div class="col-12">
+					<hr class="navline">
+				</div>
+			</header>
+			
+			<div class="row">
+				<div class="col-12">
+					<picture class="main-image">
+						<source media="(min-width: 992px)" srcset="img/people-q-c-940-480-3.jpg">
+						<source media="(min-width: 768px)" srcset="img/people-q-c-720-480-2.jpg">
+						<source media="(max-width: 767px)" srcset="img/people-q-c-767-480-7.jpg">
+						<img src="img/people-q-c-940-480-3.jpg" alt="">
+					</picture>
+				</div>
+			</div>
+			
+			<main class="row featured-work-header-row">
+				<div class="col-12 featured-work-header-col">
+					<h2 class="featured-work-header">Featured Work</h2>
+				</div>
+				
+				<div class="col-4 featured-work-col">
+					<figure>
+						<img class="featured-work-image" srcset="img/movies-286_large.jpg 286w, img/movies-220_med.jpg 220w" alt="Movie Database Project">
+						<figcaption>A preview of the movie database.</figcaption>
+					</figure>
+					<h2 class="featureId">Movie Database</h2>
+					<p>A first excercise in Python, constructing a movie database and displaying it in a web page.</p>
+					<a href="projects/movies.zip">Download</a>
+				</div>
+				
+				<div class="col-4 featured-work-col">
+					<figure>
+						<img class="featured-work-image" srcset="img/portfolio-286x161_large.jpg 286w, img/portfolio-220x124_med.jpg 220w" alt="Build A Portfolio Project">
+						<figcaption>A preview of the responsive website.</figcaption>
+					</figure>
+					<h2 class="featureId">Build A Portfolio</h2>
+					<p>An excercise in recreating a website from a mock using responsive design patterns.</p>
+					<a href="projects/portfolio.zip">Download</a>
+				</div>
+				
+				<div class="col-4 featured-work-col">
+					<figure>
+						<img class="featured-work-coming-soon" srcset="img/coming-soon-286x161_large.jpg 286w, img/coming-soon-220x124_med.jpg 220w" alt="Coming Soon">
+						<figcaption></figcaption>
+					</figure>
+					<h2 class="featureId">Coming Soon</h2>
+				</div> <!-- col -->
+			</main> <!-- main featured work area -->
+		</div> <!-- page container -->
+	</body>
+</html>
